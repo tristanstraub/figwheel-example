@@ -1,1 +1,18 @@
-nothing here yet
+Figwheel-example
+================
+
+
+In one shell, run:
+
+> lein repl
+
+% (ns figwheel-example.server)
+% (start)
+
+In another shell, run:
+
+> lein figwheel
+
+Now, visit http://localhost:8081.
+
+Now, try changing core.cljs, and see it live update!
