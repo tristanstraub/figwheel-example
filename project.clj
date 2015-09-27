@@ -1,8 +1,7 @@
 (defproject figwheel-example "0.1.0-SNAPSHOT"
   :description "Figwheel starter example"
   :url "https://github.com/tristanstraub/figwheel-example"
-  :license {:name "GNU General Public License"
-            :url "http://www.gnu.org/licenses/gpl.html"}
+  :license {:name "MIT"}
   :jvm-opts ["-XX:MaxPermSize=256m"]
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/clojurescript "1.7.122"]
